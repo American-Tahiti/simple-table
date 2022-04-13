@@ -1,5 +1,7 @@
 # simple-table
 A simple, multi-row HTML table styled with CSS
+
+
 **Table designed to demonstrate:
 *Table header
 *Table rows (multiple)
