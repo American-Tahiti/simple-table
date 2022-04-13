@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(177, 236, 187);
+	display: flex;
+	justify-content: center;
+	padding-top: 42px;
+}
+#heading {
+	position: absolute;
+	top: 0;
+	margin-bottom: 50px;
+}
+h1 {
+	width: 100vw;
+	height: 42px;
+	padding-bottom: 25px;
+	/*background-color: #71eec4;*/
+}
+table {
+	max-width: 100%;
+	margin-top: 42px;
+}
+td, th {
+	border: 2px groove #47b6f7;
+	line-height: 2em;
+}
+tr:nth-child(even) {
+	background-color: rgb(135, 250, 154);
+}
+tr:nth-child(odd) {
+	background-color: rgb(65, 216, 128);
+}
+th {
+	background-color: #4de72e;
+}
+.credit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 160%;
+}
+caption {
+    text-align: center;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
